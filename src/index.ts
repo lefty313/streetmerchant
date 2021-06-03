@@ -75,7 +75,15 @@ async function loopMain() {
 }
 
 export async function launchBrowser(): Promise<Browser> {
-  const args: string[] = [];
+  const args: string[] = [
+    '--disable-dev-shm-usage',
+    '--no-sandbox',
+    '--disable-setuid-sandbox',
+    '--headless',
+    '--disable-gpu'
+  ];
+
+  config.browser.open = false;
 
   // Skip Chromium Linux Sandbox
   // https://github.com/puppeteer/puppeteer/blob/main/docs/troubleshooting.md#setting-up-chrome-linux-sandbox
