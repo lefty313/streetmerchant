@@ -4,11 +4,10 @@
 ########################################################################################################
 
 DISCORD_WEB_HOOK=https://discord.com/api/webhooks/850075675427078195/F0MCVBsX6gQtveCJeRM_cysEup0gOZljKTMT_a7gvo0USV6zQum3UWznKNcpcURs5aF5
-SHOW_ONLY_SERIES=3080,3090
+SHOW_ONLY_SERIES=3080
 STORES=acompc,alternate,amazon-de,amazon-de-warehouse,arlt,asus-de,caseking,computeruniverse,cyberport,equippr,euronics-de,expert,futurex,galaxus,gamestop-de,mediamarkt,medimax,mindfactory,notebooksbilliger,otto,pcking,proshop-de,saturn,spielegrotte
 OPEN_BROWSER=false
 MAX_PRICE_SERIES_3080=1200
-MAX_PRICE_SERIES_3090=1700
 IN_STOCK_WAIT_TIME=600
 PAGE_SLEEP_MIN=20000
 PAGE_SLEEP_MAX=100000
